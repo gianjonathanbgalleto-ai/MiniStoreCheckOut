@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background: #f2f2f2;
             margin: 0;
             padding: 30px;
         }
@@ -41,17 +41,17 @@
             box-sizing: border-box;
         }
 
+        button {
+            margin-top: 20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
         .product {
             border: 1px solid #ddd;
             padding: 15px;
             margin-top: 15px;
             border-radius: 8px;
-        }
-
-        button {
-            margin-top: 20px;
-            cursor: pointer;
-            font-weight: bold;
         }
 
         #validationMessage {
@@ -62,7 +62,7 @@
         #orderSummary {
             margin-top: 25px;
             padding: 20px;
-            background-color: #f9f9f9;
+            background: #f7f7f7;
             border-radius: 8px;
         }
     </style>
@@ -89,9 +89,9 @@
         <option value="3">Express Delivery</option>
     </select>
 
-    <div id="validationMessage"></div>
-
     <button type="button" id="calculateBtn">Calculate Order</button>
+
+    <div id="validationMessage"></div>
 
     <div id="orderSummary"></div>
 
